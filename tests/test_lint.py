@@ -21,6 +21,6 @@ def test_spdx_validation_nok_of_json_empty_object():
 def test_spdx_validation_ok_of_typical_json_documentt(capsys):
     with open(SPDX_TYPICAL_JSON_2_2_PATH, "rt") as handle:
         sbom_doc = json.load(handle)
-    assert spl.spdx_dci_is_valid(sbom_doc) is False  # Temporary measure - mapping from TV to JSON is nesting
+    assert spl.spdx_dci_is_valid(sbom_doc) is True
     out, _ = capsys.readouterr()
     assert not out.strip()
