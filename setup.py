@@ -30,7 +30,9 @@ setup(
     keywords="software-bill-of-materials validation spdx baseline extension development",
     packages=find_packages(exclude=("tests",)),
     include_package_data=True,
-    install_requires=[],
+    install_requires=[
+        "xmlschema",
+    ],
     entry_points={
         "console_scripts": [
             "spdx-lint=spdx_lint.cli:main",
