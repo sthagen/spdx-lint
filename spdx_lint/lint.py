@@ -32,7 +32,7 @@ def spdx_dci_is_valid(sbom):
         try:
             if not sbom.get(key):
                 return False
-        except TypeError as e:
+        except AttributeError as e:
             print(str(sbom), e)  # TODO(sthagen) when I am a grown up, I want to really log
 
     return True
