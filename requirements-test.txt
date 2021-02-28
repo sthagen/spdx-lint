@@ -3,4 +3,4 @@ hypothesis
 pyperf
 pytest
 pytest-coverage
-pytest-flak8
+pytest-flake8
