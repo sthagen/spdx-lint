@@ -21,12 +21,29 @@ SPDX_2_2_DCI_TV = {
     "[DocumentComment]": "<text>$_MULTI_LINE_TEXT</text>",
 }
 
+SPDX_2_2_DCI_JSON = {  # Reversed engineered from round trip conversion - TODO(sthagen) later use json schema
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.2",
+    "creationInfo": {
+        "created": "%Y-%m-%dT%H:%M:%SZ",
+        "creators": [
+            "Person: $_PERSON_NAME [($_EMAIL)]",
+            "Organization: $_ORGANIZATION [($_EMAIL)]",
+            "Tool: $_TOOL_IDENTIFIED-$_VERSION",
+        ]
+    },
+    "name": "$_SINGLE_LINE",
+    "dataLicense": "CC0-1.0",
+    "documentNamespace": "$_URI_MINUS_PART",
+
+}
+
 
 def spdx_dci_is_valid(sbom):
     """Shallow key level validation for DCI part of SPDX documents."""
     if not sbom:
         return False
-    for key in SPDX_2_2_DCI_TV.keys():
+    for key in SPDX_2_2_DCI_JSON.keys():
         if key.startswith("["):
             continue
         try:
