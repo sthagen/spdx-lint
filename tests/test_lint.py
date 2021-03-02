@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # pylint: disable=missing-docstring,unused-import,reimported
+import copy
 import json
 import pathlib
 import pytest  # type: ignore
@@ -24,3 +25,11 @@ def test_spdx_validation_ok_of_typical_json_documentt(capsys):
     assert spl.spdx_dci_is_valid(sbom_doc) is True
     out, _ = capsys.readouterr()
     assert not out.strip()
+
+
+def test_spdx_validation_nok_of_json_object_lacking_one_key():
+    keys = tuple(spl.SPDX_2_2_DCI_JSON.keys())
+    for key in keys:
+        lacking = copy.deepcopy(spl.SPDX_2_2_DCI_JSON)
+        del lacking[key]
+        assert spl.spdx_dci_is_valid(lacking) is False
