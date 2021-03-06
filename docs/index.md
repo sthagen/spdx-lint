@@ -5,4 +5,4 @@ Experimental SPDX baseline validator.
 Experimental.
 
 ## Rationale
-create a maintainable SPDX parser and validator that rules per baseline and extensions (profiles).
+Create a maintainable SPDX parser and validator that rules per baseline and extensions (profiles).
