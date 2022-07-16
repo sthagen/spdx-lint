@@ -29,7 +29,7 @@ SPDX_2_2_DCI_JSON = {  # Reversed engineered from round trip conversion - TODO(s
             'Person: $_PERSON_NAME [($_EMAIL)]',
             'Organization: $_ORGANIZATION [($_EMAIL)]',
             'Tool: $_TOOL_IDENTIFIED-$_VERSION',
-        ]
+        ],
     },
     'name': '$_SINGLE_LINE',
     'dataLicense': 'CC0-1.0',
