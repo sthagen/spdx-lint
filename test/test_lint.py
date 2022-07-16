@@ -2,7 +2,6 @@
 import copy
 import json
 import pathlib
-import pytest  # type: ignore
 
 import spdx_lint.lint as spl
 
