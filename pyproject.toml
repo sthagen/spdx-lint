@@ -49,9 +49,6 @@ spdx-lint = "spdx_lint.cli:app"
 include = ["spdx_lint"]
 exclude = ["test*"]
 
-[bdist_wheel]
-universal = true
-
 [tool.black]
 line-length = 120
 skip-string-normalization = true
