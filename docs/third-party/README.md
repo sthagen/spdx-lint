@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/spdx-lint/blob/default/sbom/cdx.json) with SHA256 checksum ([6415ca02 ...](https://git.sr.ht/~sthagen/spdx-lint/blob/default/sbom/cdx.json.sha256 "sha256:6415ca021e1082bc1d32d2317ade7c2bd70473453d253535507117e2f14c1f9b")).
-<!--[[[end]]] (checksum: 80da1e7375f978dfacf802b44fb60e2b)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/spdx-lint/blob/default/sbom/cdx.json) with SHA256 checksum ([ff9d7df3 ...](https://git.sr.ht/~sthagen/spdx-lint/blob/default/sbom/cdx.json.sha256 "sha256:ff9d7df30ae352ae524aeca43c0e0545de5b2b1b0042a360c177fd269979149b")).
+<!--[[[end]]] (checksum: 1bed0a3d132f8606bd84bae05a80c197)-->
 ## Licenses
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -12,21 +12,20 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 <!--[[[fill direct_dependencies_table()]]]-->
 | Name                                                          | Version                                               | License     | Author            | Description (from packaging data)                                  |
 |:--------------------------------------------------------------|:------------------------------------------------------|:------------|:------------------|:-------------------------------------------------------------------|
-| [jsonschema](https://github.com/python-jsonschema/jsonschema) | [4.17.3](https://pypi.org/project/jsonschema/4.17.3/) | MIT License | Julian Berman     | An implementation of JSON Schema validation for Python             |
+| [jsonschema](https://github.com/python-jsonschema/jsonschema) | [4.19.0](https://pypi.org/project/jsonschema/4.19.0/) | MIT License | Julian Berman     | An implementation of JSON Schema validation for Python             |
 | [typer](https://github.com/tiangolo/typer)                    | [0.9.0](https://pypi.org/project/typer/0.9.0/)        | MIT License | Sebastián Ramírez | Typer, build great CLIs. Easy to code. Based on Python type hints. |
-| [xmlschema](https://github.com/sissaschool/xmlschema)         | [2.3.0](https://pypi.org/project/xmlschema/2.3.0/)    | MIT License | Davide Brunato    | An XML Schema validator and decoder                                |
-<!--[[[end]]] (checksum: 36fa6a12736bef3016817c89bb584ec0)-->
+| [xmlschema](https://github.com/sissaschool/xmlschema)         | [2.4.0](https://pypi.org/project/xmlschema/2.4.0/)    | MIT License | Davide Brunato    | An XML Schema validator and decoder                                |
+<!--[[[end]]] (checksum: 040ad467779bda45bde3edd98c47f127)-->
 
 ### Indirect Dependencies
 
 <!--[[[fill indirect_dependencies_table()]]]-->
-| Name                                                      | Version                                               | License     | Author                     | Description (from packaging data)                                    |
-|:----------------------------------------------------------|:------------------------------------------------------|:------------|:---------------------------|:---------------------------------------------------------------------|
-| [attrs](https://www.attrs.org/en/stable/changelog.html)   | [23.1.0](https://pypi.org/project/attrs/23.1.0/)      | MIT License | Hynek Schlawack <hs@ox.cx> | Classes Without Boilerplate                                          |
-| [click](https://palletsprojects.com/p/click/)             | [8.1.3](https://pypi.org/project/click/8.1.3/)        | BSD License | Armin Ronacher             | Composable command line interface toolkit                            |
-| [elementpath](https://github.com/sissaschool/elementpath) | [4.1.2](https://pypi.org/project/elementpath/4.1.2/)  | MIT License | Davide Brunato             | XPath 1.0/2.0/3.0/3.1 parsers and selectors for ElementTree and lxml |
-| [pyrsistent](https://github.com/tobgu/pyrsistent/)        | [0.19.2](https://pypi.org/project/pyrsistent/0.19.2/) | MIT License | Tobias Gustafsson          | Persistent/Functional/Immutable data structures                      |
-<!--[[[end]]] (checksum: 0ce8e2b47c1c98c431e1ae2334f6cb04)-->
+| Name                                                      | Version                                              | License     | Author                     | Description (from packaging data)                                    |
+|:----------------------------------------------------------|:-----------------------------------------------------|:------------|:---------------------------|:---------------------------------------------------------------------|
+| [attrs](https://www.attrs.org/en/stable/changelog.html)   | [23.1.0](https://pypi.org/project/attrs/23.1.0/)     | MIT License | Hynek Schlawack <hs@ox.cx> | Classes Without Boilerplate                                          |
+| [click](https://palletsprojects.com/p/click/)             | [8.1.6](https://pypi.org/project/click/8.1.6/)       | BSD License | UNKNOWN                    | Composable command line interface toolkit                            |
+| [elementpath](https://github.com/sissaschool/elementpath) | [4.1.5](https://pypi.org/project/elementpath/4.1.5/) | MIT License | Davide Brunato             | XPath 1.0/2.0/3.0/3.1 parsers and selectors for ElementTree and lxml |
+<!--[[[end]]] (checksum: 657ca67fe3e513c2534e5031ba7cd849)-->
 
 ## Dependency Tree(s)
 
@@ -42,13 +41,20 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
-jsonschema==4.17.3
-├── attrs [required: >=17.4.0, installed: 23.1.0]
-└── pyrsistent [required: >=0.14.0,!=0.17.2,!=0.17.1,!=0.17.0, installed: 0.19.2]
+jsonschema==4.19.0
+├── attrs [required: >=22.2.0, installed: 23.1.0]
+├── jsonschema-specifications [required: >=2023.03.6, installed: 2023.7.1]
+│   └── referencing [required: >=0.28.0, installed: 0.30.2]
+│       ├── attrs [required: >=22.2.0, installed: 23.1.0]
+│       └── rpds-py [required: >=0.7.0, installed: 0.9.2]
+├── referencing [required: >=0.28.4, installed: 0.30.2]
+│   ├── attrs [required: >=22.2.0, installed: 23.1.0]
+│   └── rpds-py [required: >=0.7.0, installed: 0.9.2]
+└── rpds-py [required: >=0.7.1, installed: 0.9.2]
 typer==0.9.0
-├── click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
-└── typing-extensions [required: >=3.7.4.3, installed: 4.4.0]
-xmlschema==2.3.0
-└── elementpath [required: >=4.1.2,<5.0.0, installed: 4.1.2]
+├── click [required: >=7.1.1,<9.0.0, installed: 8.1.6]
+└── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
+xmlschema==2.4.0
+└── elementpath [required: >=4.1.5,<5.0.0, installed: 4.1.5]
 ````
-<!--[[[end]]] (checksum: 7369445f1208c6875193476fac6bf86f)-->
+<!--[[[end]]] (checksum: 2e05468ee1c2fd604243428f44411a36)-->
