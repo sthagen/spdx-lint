@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+from typing import no_type_check
 
 SPDX_2_2_DCI_TV = {
     'SPDXVersion': 'SPDX-2.2',
@@ -37,6 +37,7 @@ SPDX_2_2_DCI_JSON = {  # Reversed engineered from round trip conversion - TODO(s
 }
 
 
+@no_type_check
 def spdx_dci_is_valid(sbom):
     """Shallow key level validation for DCI part of SPDX documents."""
     if not sbom:
