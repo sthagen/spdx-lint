@@ -1,0 +1,14 @@
+name: spdx-lint
+description: Experimental SPDX baseline validator.
+license_spdx: MIT
+version: 2023.10.22
+spec_version: 1.0
+home_url: https://git.sr.ht/~sthagen/spdx-lint
+news_url: https://libraries.io/pypi/spdx-lint/versions.atom
+date: 2023-10-22
+about_resource: ./
+libraries_io_url: https://libraries.io/pypi/spdx-lint?number=2023.10.22
+vcs_tool: git
+vcs_repository: https://git.sr.ht/~sthagen/spdx-lint
+vcs_branch: default
+
