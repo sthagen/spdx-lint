@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/spdx-lint/blob/default/sbom/cdx.json) with SHA256 checksum ([30239324 ...](https://git.sr.ht/~sthagen/spdx-lint/blob/default/sbom/cdx.json.sha256 "sha256:302393244550f56ad92c119f9ba7f269815635784b994c8c03862336e044e42d")).
-<!--[[[end]]] (checksum: 57cff8109d7873dfc68b4f84526e2b36)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/spdx-lint/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([265c1ce9 ...](https://git.sr.ht/~sthagen/spdx-lint/blob/default/etc/sbom/cdx.json.sha256 "sha256:265c1ce93d62530664d3f792a53cc1a44fffc05e75cde2ed35605da9d4a11462")).
+<!--[[[end]]] (checksum: 2eb2689407f5cef363dd7a6cb0318589)-->
 ## Licenses
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -21,12 +21,13 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Indirect Dependencies
 
 <!--[[[fill indirect_dependencies_table()]]]-->
-| Name                                                      | Version                                              | License     | Author                     | Description (from packaging data)                                    |
-|:----------------------------------------------------------|:-----------------------------------------------------|:------------|:---------------------------|:---------------------------------------------------------------------|
-| [attrs](https://www.attrs.org/en/stable/changelog.html)   | [23.1.0](https://pypi.org/project/attrs/23.1.0/)     | MIT License | Hynek Schlawack <hs@ox.cx> | Classes Without Boilerplate                                          |
-| [click](https://palletsprojects.com/p/click/)             | [8.1.6](https://pypi.org/project/click/8.1.6/)       | BSD License | UNKNOWN                    | Composable command line interface toolkit                            |
-| [elementpath](https://github.com/sissaschool/elementpath) | [4.1.5](https://pypi.org/project/elementpath/4.1.5/) | MIT License | Davide Brunato             | XPath 1.0/2.0/3.0/3.1 parsers and selectors for ElementTree and lxml |
-<!--[[[end]]] (checksum: 657ca67fe3e513c2534e5031ba7cd849)-->
+| Name                                                             | Version                                                    | License                            | Author                                                                                | Description (from packaging data)                                    |
+|:-----------------------------------------------------------------|:-----------------------------------------------------------|:-----------------------------------|:--------------------------------------------------------------------------------------|:---------------------------------------------------------------------|
+| [attrs](https://www.attrs.org/en/stable/changelog.html)          | [23.1.0](https://pypi.org/project/attrs/23.1.0/)           | MIT License                        | Hynek Schlawack <hs@ox.cx>                                                            | Classes Without Boilerplate                                          |
+| [click](https://palletsprojects.com/p/click/)                    | [8.1.6](https://pypi.org/project/click/8.1.6/)             | BSD License                        | Pallets <contact@palletsprojects.com>                                                 | Composable command line interface toolkit                            |
+| [elementpath](https://github.com/sissaschool/elementpath)        | [4.1.5](https://pypi.org/project/elementpath/4.1.5/)       | MIT License                        | Davide Brunato                                                                        | XPath 1.0/2.0/3.0/3.1 parsers and selectors for ElementTree and lxml |
+| [typing_extensions](https://github.com/python/typing_extensions) | [4.7.1](https://pypi.org/project/typing_extensions/4.7.1/) | Python Software Foundation License | "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com> | Backported and Experimental Type Hints for Python 3.7+               |
+<!--[[[end]]] (checksum: bbdae515de385d18d72fb8f2b6883510)-->
 
 ## Dependency Tree(s)
 
