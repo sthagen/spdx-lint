@@ -4,3 +4,4 @@ packages:
 - click
 - elementpath
 - pyrsistent
+- typing-extensions
