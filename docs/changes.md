@@ -1,9 +1,10 @@
 # Changes
 
+2023.10.22
+:    * Changed repository structure and added about, security, and support info files
+
 2022.7.17
 :    * Maintenance release with updates in test and dev dependencies as well as type and test fixes
-
-## 2021
 
 2021.3.2 (0.0.3)
 :    * Added key permutating test
