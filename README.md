@@ -10,7 +10,7 @@ Experimental SPDX baseline validator.
 [![Version](https://img.shields.io/pypi/v/spdx-lint.svg?style=flat)](https://pypi.python.org/pypi/spdx-lint/)
 [![Downloads](https://static.pepy.tech/badge/spdx-lint/month)](https://pepy.tech/project/spdx-lint)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/spdx-lint.svg?style=flat)](https://pypi.python.org/pypi/spdx-lint/)
-[![Maintenance Status](docs/badges/downloads-per-month.svg)](https://git.sr.ht/~sthagen/spdx-lint/log)
+[![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/spdx-lint/log)
 
 ## Documentation
 
