@@ -7,7 +7,7 @@ Experimental SPDX baseline validator.
 [![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/spdx-lint/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 [![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-[![Version](https://img.shields.io/pypi/v/spdx-lint.svg?style=flat)](https://pypi.python.org/pypi/spdx-lint/)
+[![Version](badges/latest-release.svg)](https://pypi.python.org/pypi/spdx-lint/)
 [![Downloads](badges/downloads-per-month.svg)](https://pepy.tech/project/spdx-lint)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/spdx-lint.svg?style=flat)](https://pypi.python.org/pypi/spdx-lint/)
 [![Maintenance Status](badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/spdx-lint/log)
