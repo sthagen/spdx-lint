@@ -2,15 +2,15 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:cc15ed9e-df18-44f3-9388-3ddaf743fb51",
+  "serialNumber": "urn:uuid:1e69b84d-c6ef-4b18-9fad-fbaa5d0e77ee",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-10-30T17:31:32.927728+00:00",
+    "timestamp": "2023-11-16T18:17:41.346156+00:00",
     "tools": [
       {
         "vendor": "CycloneDX",
         "name": "cyclonedx-bom",
-        "version": "3.11.5"
+        "version": "3.11.7"
       },
       {
         "vendor": "CycloneDX",
@@ -56,21 +56,21 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "20ca8641-0c47-402f-9523-bd52bca0cb7a",
+      "bom-ref": "9ef2ddd0-1e69-4e09-84c3-6e500c318114",
       "name": "jsonschema",
-      "version": "4.19.2",
-      "purl": "pkg:pypi/jsonschema@4.19.2"
+      "version": "4.20.0",
+      "purl": "pkg:pypi/jsonschema@4.20.0"
     },
     {
       "type": "library",
-      "bom-ref": "c2d48102-696f-4448-a289-97c626c831a9",
+      "bom-ref": "e7e3889f-996f-4386-9a79-19756d703d20",
       "name": "typer",
       "version": "0.9.0",
       "purl": "pkg:pypi/typer@0.9.0"
     },
     {
       "type": "library",
-      "bom-ref": "4b570042-3ff4-4064-9283-b25fbdabb3ca",
+      "bom-ref": "a28ae07e-720e-4536-841c-2780f7482716",
       "name": "xmlschema",
       "version": "2.5.0",
       "purl": "pkg:pypi/xmlschema@2.5.0"
@@ -78,15 +78,15 @@
   ],
   "dependencies": [
     {
-      "ref": "20ca8641-0c47-402f-9523-bd52bca0cb7a",
+      "ref": "9ef2ddd0-1e69-4e09-84c3-6e500c318114",
       "dependsOn": []
     },
     {
-      "ref": "c2d48102-696f-4448-a289-97c626c831a9",
+      "ref": "e7e3889f-996f-4386-9a79-19756d703d20",
       "dependsOn": []
     },
     {
-      "ref": "4b570042-3ff4-4064-9283-b25fbdabb3ca",
+      "ref": "a28ae07e-720e-4536-841c-2780f7482716",
       "dependsOn": []
     }
   ]
