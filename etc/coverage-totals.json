@@ -1,7 +1,7 @@
 {
   "spdx-lint": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:33:58.024179",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 16:30:31 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 15,
@@ -13,6 +13,22 @@
     "num_branches": 10,
     "num_partial_branches": 1,
     "covered_branches": 9,
-    "missing_branches": 1
+    "missing_branches": 1,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 3,
+    "files": [
+      "spdx_lint/__init__.py",
+      "spdx_lint/cli.py",
+      "spdx_lint/lint.py"
+    ],
+    "blake3": "98dd961d36ba5ea9c9f9e0a50bfe092bec1a6042d2306531379dd43d84e09394",
+    "blake2": "5c11a3825884b5a3de07a1d3c676832607498ed5b2369448fde5e2c861e19f5caee82a2068a782393841c3fa7543c8815040bec36578bd18aaf766b00a969296",
+    "sha512": "baba7cedbd762339a7f4f88c00d2f50304d87763f722b6beaf95e76c0bc45005fc23042dbdc6f204f42a3751cd5a9225856bfbdccef518412755803530ce96f9",
+    "sha384": "28aaa4d7fd7229aeb311d86e5c5c6049abfc8c63bb03713110f42191853ff4620c6078973461acc39bd1a0edc633c963",
+    "sha256": "aa7f8cf17f288129f817de5ebbe5e53d4da5bb4fb1eb451b80687b7888424637",
+    "sha1": "d9e80138f68e7627628ac28d2b5531b0c3bf9c40",
+    "md5": "5599a66124b827b20d81b5bd9a3a38b0",
+    "python_version": "3.10.12",
+    "entropy": 5.278022
   }
 }
