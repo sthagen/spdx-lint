@@ -1,0 +1,18 @@
+{
+  "spdx-lint": {
+    "version": "7.3.2",
+    "timestamp": "2023-12-02T15:33:58.024179",
+    "branch_coverage": true,
+    "show_contexts": true,
+    "covered_lines": 15,
+    "num_statements": 25,
+    "percent_covered": 68.57142857142857,
+    "percent_covered_display": "68.57",
+    "missing_lines": 10,
+    "excluded_lines": 0,
+    "num_branches": 10,
+    "num_partial_branches": 1,
+    "covered_branches": 9,
+    "missing_branches": 1
+  }
+}
