@@ -21,6 +21,7 @@
       "last_month": -1,
       "last_week": -1
     },
+    "dynamic": null,
     "home_page": "",
     "keywords": "baseline,developer-tools,extension,software-bill-of-materials,spdx,validation",
     "license": "",
@@ -37,6 +38,7 @@
       "Source-Code": "https://git.sr.ht/~sthagen/spdx-lint",
       "Test-Coverage": "https://codes.dilettant.life/coverage/spdx-lint"
     },
+    "provides_extra": null,
     "release_url": "https://pypi.org/project/spdx-lint/2023.10.22/",
     "requires_dist": [
       "jsonschema >=4.19.1",
